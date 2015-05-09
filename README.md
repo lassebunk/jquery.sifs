@@ -1,6 +1,7 @@
 # jQuery Simple Infinite Scrolling (jquery.sifs)
 
-jQuery.SIFS is the simplest infinite scrolling library you will ever find. The initial release was 60 lines of code in total.
+jQuery.SIFS is the simplest infinite scrolling library you will ever find.
+The initial release was just 60 lines of code in total.
 
 ## Usage
 
@@ -16,7 +17,10 @@ $.sifs.init({
   postSelector:       '.post',
   paginationSelector: '.pagination',
   nextSelector:       'a.next',
-  loadingHtml:        'Loading...'
+  loadingHtml:        'Loading...',
+  show:               function(elems) {
+                        elems.fadeIn(700);
+                      }
 });
 ```
 
