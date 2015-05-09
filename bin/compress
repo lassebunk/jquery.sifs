@@ -1,0 +1,1 @@
+uglifyjs --compress --mangle -- jquery.sifs.js > jquery.sifs.min.js
