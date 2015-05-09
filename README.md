@@ -22,6 +22,10 @@ $.sifs.init({
 
 It's that simple.
 
+## Wishlist
+
+1. I want to be able to add infinite scrolling to more than one element.
+
 ## Contributing
 
 Contributions are appreciated and very welcome. You can contribute by
